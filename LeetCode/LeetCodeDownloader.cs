@@ -142,7 +142,7 @@ namespace LeetCode
 
             // Signin.
             element = driver.GetElement("input", "data-cy", "username");
-            element.SendKeys("mcaneresin@gmail.com");
+            element.SendKeys("");
             element = driver.GetElement("input", "data-cy", "password");
             element.SendKeys("");
             element = driver.GetElement("button", "data-cy", "sign-in-btn");
